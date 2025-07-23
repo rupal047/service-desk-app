@@ -1,57 +1,70 @@
-# 🛠️ Service Desk Application
+# Getting Started with Create React App
 
-A modern, user-friendly service desk platform allowing users to raise support tickets, track their progress, and interact with support staff efficiently.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## 🚀 Features
+## Available Scripts
 
-### 👤 User Features
-- **User Registration & Login**: Secure user authentication for personalized access.
-- **Raise Tickets**: Users can create new tickets with details like:
-  - Issue Description
-  - Priority (Low / Medium / High)
-  - Category (e.g., Technical, Hardware, Software)
-- **Track Status**: View status updates (e.g., Open, In Progress, Resolved).
-- **Ticket History**: See all previously raised tickets.
-- **Real-time Updates**: Receive updates and provide follow-up details.
+In the project directory, you can run:
 
-### 🛡️ Admin Features
-- **Ticket Dashboard**: View and manage all incoming tickets.
-- **Assign Tickets**: Allocate tickets to support staff.
-- **Update Status**: Modify ticket progress stages (Open → In Progress → Resolved).
-- **Filter & Sort**: Organize tickets by priority, date, or category.
+### `npm start`
 
-## 💻 Tech Stack
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-- **Frontend**: React.js, Tailwind CSS (or Bootstrap), Axios
-- **Backend**: Node.js / Express (or Flask / Django)
-- **Database**: MongoDB / PostgreSQL / MySQL
-- **Authentication**: JWT / Session-based Auth
-- **Deployment**: Vercel / Netlify (Frontend), Render / Heroku (Backend)
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-## 📱 Responsive Design
+### `npm test`
 
-- Fully responsive UI compatible with desktops, tablets, and mobile devices.
-- Intuitive navigation and accessible layout.
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-## 🧩 Future Enhancements
+### `npm run build`
 
-- Role-based access control (RBAC)
-- Email / SMS notifications
-- File attachments in tickets
-- Live chat support
-- Analytics and ticket performance reporting
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-## 🏁 Getting Started
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-```bash
-# Clone the repository
-git clone https://github.com/yourusername/service-desk-app.git
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-# Navigate into the directory
-cd service-desk-app
+### `npm run eject`
 
-# Install dependencies
-npm install
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-# Start the app
-npm start
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
